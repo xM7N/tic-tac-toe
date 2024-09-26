@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <button id="buttonTest" onclick="testFunction()"></button>
+
+    <div id="players">
+        <img src="kolko.png" alt="gracz1">
+        <img src="krzyzyk.png" alt="gracz2">
+    </div>
+    <div id="info">
+        Teraz porusza się gracz <img src="kolko.png">
+    </div>
+    <br>
+
+<div id="container">
+    <div id="playerOnePoints">
+        0
+    </div>
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div id="playerTwoPoints">
+        0
+    </div>
+</div>
+           
+
+
+    <br>
+    <br>
+    <button id="resetButton" onclick="resetButtonFunc()">RESET</button>
+    <button id="newGameButton" onclick="newGame()"">NOWA GRA</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
